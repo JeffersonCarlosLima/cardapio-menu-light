@@ -95,7 +95,9 @@
         padding-bottom: 50px;
     }
 
-
+    .mensagem-cardapio{
+        display: none;
+    }
     .card-item {
         display: flex;
         flex-direction: row !important;
