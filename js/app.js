@@ -49,13 +49,12 @@ cardapio.metodos = {
 
 cardapio.templates = {
     item: `
-        <div class="col-12 col-sm-6 col-md-3 p-2">
-            <div class="card card-item" id="\${id}">
+            <div class="card-item" id="\${id}">
                 <div class="img-produto">
                     <img src="\${img}"/>
                 </div>
                 <div class="dados-produto">
-                <p class="title-produto mt-4">
+                <p class="title-produto">
                 <b>\${name}</b>
                 </p>
                 <p class="description">\${description}</p>
@@ -64,7 +63,6 @@ cardapio.templates = {
                 </p>
                 </div>
             </div>
-        </div>
     `,
 };
 

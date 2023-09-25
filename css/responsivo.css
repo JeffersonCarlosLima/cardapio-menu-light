@@ -14,6 +14,8 @@
     p b {
         display: flex !important;
         width: 100%;
+        padding: 0px !important;
+        margin: 0px !important;
     }
     .navbar-collapse {
         background-color: var(--color-secundary);
@@ -98,30 +100,38 @@
     }
 
     .card-item {
-        flex-direction: row;
-        align-items: center;
-        justify-content: start;
-        margin-bottom: 0px !important;
-        width: 100%;
-        gap: 8px !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: start !important;
+        margin-bottom: 16px !important;
+        width: 100% !important;
+        height: 128px;
+        gap: 10px !important;
         padding: 0px !important;
     }
 
-    .card-item .img-produto img {
-        width: 150px !important;
-        margin-right: 16px!important;
+    .img-produto img {
+        display: flex;
+        flex-shrink: 0;
+        width: 120px !important;
+        height: 120px !important;
+        padding: 0;
+        margin: 0;
+        border-radius: 8px;
 
     }
     .description{
         display: flex;
         font-size: 14px;
         font-weight: 400;
-        width: 100%;
+        width: 90%;
+        margin: 0;
     }
     .card-item .title-produto {
         display: flex;
         font-size: 16px;
-        margin: 0;
+        margin: 0 !important;
+        padding: 0 !important;
         width: 95%;
         text-align: start;
         overflow: hidden;
@@ -164,10 +174,6 @@
     .item-carrinho{
         padding: 8px  0px!important;
     }
-    .item-carrinho .title-produto {
-        font-size: 14px;
-        overflow: hidden;
-    }
     .modal-full .img-produto img{
         width: 150px !important;
         margin: 0px !important;
@@ -176,11 +182,11 @@
     .dados-produto{
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        padding-right: 0px !important;
-        padding-left: 8px !important;
-        width: 170px;
-        padding-left: 8px;
+        align-items: start;
+        justify-content: center;
+        padding-top: 8px;
+        width: 100% !important;
+        gap: 0px !important;
     }
     .item-carrinho .price-produto {
         font-size: 14px;

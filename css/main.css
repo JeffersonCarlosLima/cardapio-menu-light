@@ -20,7 +20,7 @@
     --color-green: #2ecc71;
     --color-separate: #cccccc;
     --shadow-button:0px 8px 20px rgba(0, 0, 0, 0.2);
-    --shadow-button-vcardapio: 8px 10px 15px -3px var(--color-primary);
+    --shadow-button-vcardapio: 8px 10px 15px -3px var(--color-black);
     --border-radius-button:16px;
     --border-radius-ico:16px;
     --transitionall-03s: all 0.3s ease-in-out;
@@ -300,6 +300,17 @@ b{
     justify-content: center;
     align-items: center;
 
+}
+.card-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--color-background);
+    border-radius: 8px;
+    /* Sombra-de-card */
+    box-shadow: 0px 0px 14px 0px rgba(86, 86, 86, 0.24);
 }
 .card-item .img-produto img {
     width: 100%;
