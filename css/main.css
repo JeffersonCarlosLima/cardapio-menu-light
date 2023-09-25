@@ -65,6 +65,12 @@ b{
     gap: 8px;
 
 }
+
+/*Ocultando cards para exibir apenas no celular*/
+.card-item{
+    display: none;
+}
+
 .btn-white .botao-carrinho{
     display: flex;
     align-items: center;
