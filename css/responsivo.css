@@ -11,7 +11,7 @@
     .no-mobile {
         display: none;
     }
-    b{
+    p b {
         display: flex !important;
         width: 100%;
     }
