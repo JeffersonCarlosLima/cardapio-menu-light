@@ -67,7 +67,7 @@ b{
 }
 .mensagem-cardapio{display: flex;}
 /*Ocultando cards para exibir apenas no celular*/
-.card-item{
+.cardapio-container{
     display: none;
 }
 

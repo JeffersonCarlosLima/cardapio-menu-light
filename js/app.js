@@ -66,3 +66,14 @@ cardapio.templates = {
     `,
 };
 
+function verificarLarguraDaTela() {
+    var elemento = document.getElementById('itensCardapio');
+    if (window.innerWidth >= 768) {
+      elemento.style.display = 'none'; // Oculta em telas de celular
+    } else {
+      elemento.style.display = 'block'; // Exibe em telas de computador
+    }
+  }
+
+  // Chama a função ao carregar a página e redimensionar a janela
+  window.addEventListener('load', verificarLarguraDaTela);
